@@ -28,8 +28,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t horiking/simple_html_page:latest .
+          docker build -t frederikberlin/simple_html_page:latest .
 
       - name: Push Docker Image to Docker Hub
         run: |
-          docker push horiking/simple_html_page:latest
+          docker push frederikberlin/simple_html_page:latest
